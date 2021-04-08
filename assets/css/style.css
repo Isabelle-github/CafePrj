@@ -35,13 +35,13 @@ nav>ul>li>a:hover{
 }
 #hero img{
     position: relative;
-    width: 80%;
+    width: 70%;
     height: 50%;
     padding:50% 30% 30% 0%;
 }
 .hello {
     background-image: url("../img/beans_icon.png");
-    height: 100vh;
+    height: 50%;
     width: 100%;
     background-size:cover;
     background-repeat: no-repeat; 
@@ -63,3 +63,33 @@ nav>ul>li>a:hover{
     width: 100%;
     height: 50%;
 }
+#menu {
+   background-image: url("../img/cake_icon.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   font-family: 'Special Elite', cursive;
+   text-align:center;
+}
+#menu img:first-of-type {
+    width: 4em;
+    height: 3em;
+}
+#menu img:last-of-type {
+    width: 100%;
+    height: 10%;
+}
+#story p, #story h1{
+    text-align:left;
+    width: 40%;
+    font-family: 'Special Elite', cursive;
+    line-height: 1.5em;
+    padding-left: 10%;
+}
+#story a img{
+    position:relative;
+    width: 30%;
+    height: 30%;
+    left: 60%;
+    bottom: 70%;
+}
+
