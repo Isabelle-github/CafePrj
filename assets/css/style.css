@@ -59,10 +59,10 @@ nav>ul>li>a:hover{
     font-size: 3em;
 }
 .hello img{
-    position: relative;
     width: 100%;
-    height: 50%;
+    height: 50vw;
 }
+/* ======MENU======= */
 #menu {
    background-image: url("../img/cake_icon.png");
    background-repeat: no-repeat;
@@ -70,13 +70,33 @@ nav>ul>li>a:hover{
    font-family: 'Special Elite', cursive;
    text-align:center;
 }
+#menu article{
+    width: 40%;
+    text-align:center;
+    margin: 0px auto;
+    border-style: double;
+    margin-bottom: 2em;
+}
+#menu h2{
+    font-family: 'Exo', sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-decoration:solid;
+}
+#menu h1{
+    font-family: 'Exo', sans-serif;
+    font-size: 3em;
+    text-transform: uppercase;
+    text-decoration:solid;
+}
 #menu img:first-of-type {
     width: 4em;
     height: 3em;
 }
-#menu img:last-of-type {
-    width: 100%;
-    height: 10%;
+/* ======MENU bridge2======= */
+#menu img:nth-of-type(2) {
+    height:50vw;
+   width: 100%;
 }
 #story p, #story h1{
     text-align:left;
@@ -88,7 +108,7 @@ nav>ul>li>a:hover{
 #story a img{
     position:relative;
     width: 30%;
-    height: 30%;
+    height: 10%;
     left: 60%;
     bottom: 70%;
 }
