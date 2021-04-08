@@ -204,22 +204,22 @@ nav>ul>li>a:hover{
 /* ======CAKES======= */
 #cakes{
     width: 80%;
-    height: 100vw;
-    border-style:solid;
+    height: 70vw;
+    border-style:none;
     margin: 0px auto;
 }
 #cakes div{
     position:relative;
     width: 60%;
-    height: 30%;
+    height: 45%;
     left: 0%;
-    top: 40%;
+    top: 50%;
     margin: 0px 0px;
     padding:0px 0px;
-    border-style: dotted;
+    border-style: none;
     background-image: url("../img/muffin_icon.png");
     background-repeat: no-repeat;
-    background-size: 70vh;
+    background-size: contain;
     font-family: 'Exo', sans-serif;
 }
 #cakes article{
@@ -227,10 +227,10 @@ nav>ul>li>a:hover{
     width: 40%;
     
     left: 60%;
-    top: 8%;
+    top: 6%;
     margin: 0px 0px;
     padding:0px 0px;
-    border-style: double;
+    border-style: none;
     font-family: 'Exo', sans-serif;
 }
 #cakes img{
@@ -270,3 +270,12 @@ nav>ul>li>a:hover{
     background-color: grey;
 }
 /* ======FOOTER/CONTACT======= */
+#contact {
+    background-color: #000;
+    height: 20vw;
+    color: #fff;
+    text-align: center;
+}
+#contact h3{
+    padding-top: 4%;
+}
