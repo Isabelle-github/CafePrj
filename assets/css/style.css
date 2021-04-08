@@ -50,13 +50,17 @@ nav>ul>li>a:hover{
     width: 60%;
     margin: 5% 5%;
     font-family: 'Special Elite', cursive;
-    line-height: 1.5em;
+    line-height: 2em;
+}
+.hello p::first-letter{
+    font-size: x-large;
 }
 .hello h1{
     margin: 5% 5%;
     font-family: 'Exo', sans-serif;
     text-transform: uppercase;
-    font-size: 3em;
+    font-size: 4em;
+    font-weight: bold;
 }
 .hello img{
     width: 100%;
@@ -77,17 +81,26 @@ nav>ul>li>a:hover{
     border-style: double;
     margin-bottom: 2em;
 }
-#menu h2{
-    font-family: 'Exo', sans-serif;
-    font-size: 2em;
-    text-transform: uppercase;
-    text-decoration:solid;
+#menu article p::first-letter{
+    font-size: x-large;
 }
-#menu h1{
+#menu h2{
     font-family: 'Exo', sans-serif;
     font-size: 3em;
     text-transform: uppercase;
-    text-decoration:solid;
+    font-weight: bold;
+}
+#menu h3{
+    font-family: 'Exo', sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#menu h1{
+    font-family: 'Exo', sans-serif;
+    font-size: 4em;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 #menu img:first-of-type {
     width: 4em;
@@ -95,21 +108,165 @@ nav>ul>li>a:hover{
 }
 /* ======MENU bridge2======= */
 #menu img:nth-of-type(2) {
-    height:50vw;
+    height:40vw;
    width: 100%;
+}
+/* ======STORY======= */
+#story div{
+    width: 70%;
+    height: 50vw;
+    border-style: none;
+    margin: 0px auto;
 }
 #story p, #story h1{
     text-align:left;
-    width: 40%;
+    width: 30vw;
     font-family: 'Special Elite', cursive;
-    line-height: 1.5em;
-    padding-left: 10%;
+    line-height: 2em;
+}
+#story p::first-letter{
+    font-size: x-large;
+}
+#story h1{
+    font-family: 'Exo', sans-serif;
+    font-size:4em;
+    text-transform: uppercase;
 }
 #story a img{
     position:relative;
     width: 30%;
-    height: 10%;
+    height: 30%;
     left: 60%;
-    bottom: 70%;
+    bottom: 20em;
 }
-
+#story img{
+    height:40vw;
+    width: 100vw;
+} 
+/* ======CATERING======= */
+#catering article{
+    width: 80%;
+    height: 50vw;
+    border-style: none;
+    margin: 0px auto;
+}
+#catering img{
+    position:relative;
+    width: 30%;
+    height: 40%;
+    left: 0%;
+    top: 20em; ;
+}
+#catering article div{
+    position:relative;
+    width: 60%;
+    height: 75%;
+    left: 40%;
+    bottom: 8em;
+    margin: 0px 0px;
+    padding:0px 0px;
+    border-style: none;
+    background-image: url("../img/pie_icon.png");
+    background-repeat: no-repeat;
+    background-size: 90vh;
+    font-family: 'Exo', sans-serif;
+}
+#catering h1{
+    font-size: 4em;
+    text-transform: uppercase;
+}
+#catering p{
+    font-family: 'Special Elite', cursive;
+    width: 60%;
+    line-height: 1.5em;
+}
+#catering p::first-letter{
+    font-size: x-large;
+}
+#catering a{
+    width: 20%;
+    padding: 0.5em;
+    text-decoration:none;
+    font-family:'Exo', sans-serif;
+    font-size: 1.5em;
+    border-radius: 3px;
+}
+#catering a:hover{
+    background-color: grey;
+}
+#catering article +img{
+    height:40vw;
+    width: 100vw;
+    margin-top: 0px;
+    padding-top: 0px;
+    
+}
+/* ======CAKES======= */
+#cakes{
+    width: 80%;
+    height: 100vw;
+    border-style:solid;
+    margin: 0px auto;
+}
+#cakes div{
+    position:relative;
+    width: 60%;
+    height: 30%;
+    left: 0%;
+    top: 40%;
+    margin: 0px 0px;
+    padding:0px 0px;
+    border-style: dotted;
+    background-image: url("../img/muffin_icon.png");
+    background-repeat: no-repeat;
+    background-size: 70vh;
+    font-family: 'Exo', sans-serif;
+}
+#cakes article{
+    position:relative;
+    width: 40%;
+    
+    left: 60%;
+    top: 8%;
+    margin: 0px 0px;
+    padding:0px 0px;
+    border-style: double;
+    font-family: 'Exo', sans-serif;
+}
+#cakes img{
+    position:relative;
+    width: 50%;
+    height: 60%;
+    left: 25%;
+    top: 5em; ;
+}
+#cakes h1{
+    position: relative;
+    text-align:left;
+    font-size: 4em;
+    text-transform: uppercase;
+    font-family: 'Exo', sans-serif;
+    
+}
+#cakes p{
+    font-family: 'Special Elite', cursive;
+    text-align: left;
+    line-height: 1.5em;
+    position: relative;
+    
+}
+#cakes p::first-letter{
+    font-size: x-large;
+}
+#cakes a{
+    width: 20%;
+    padding: 0.5em;
+    text-decoration:none;
+    font-family:'Exo', sans-serif;
+    font-size: 1.5em;
+    border-radius: 3px;
+}
+#cakes a:hover{
+    background-color: grey;
+}
+/* ======FOOTER/CONTACT======= */
